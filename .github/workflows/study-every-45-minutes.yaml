@@ -10,7 +10,7 @@ on:
         default: 2
 
   schedule:
-    - cron: '*/45 * * * *'
+    - cron: '*/842 * * * *'
 
 jobs:
   check-bats-version:
