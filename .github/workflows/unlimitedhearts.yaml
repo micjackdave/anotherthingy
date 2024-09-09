@@ -1,5 +1,5 @@
 name: 'Get Unlimited Hearts (Permanent)'
-run-name: Your hack is running! Click me to see it's progress.
+run-name: working.
 
 on:
   workflow_dispatch:
