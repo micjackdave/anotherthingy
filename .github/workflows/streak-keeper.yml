@@ -1,9 +1,9 @@
 name: 'Streak Keeper (Never lose your streak.)'
-run-name: 'Your study script is running! Click me to see its progress.'
+run-name: 'working'
 
 on:
   schedule:
-    - cron: '0 6 * * *' 
+    - cron: '0 12 * * *' 
   workflow_dispatch:
 
 jobs:
