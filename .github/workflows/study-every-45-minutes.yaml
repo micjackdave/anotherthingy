@@ -1,5 +1,5 @@
 name: 'Run lessons every 45 mins'
-run-name: Your hack is running! Click me to see it's progress.
+run-name: working.
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
         default: 2
 
   schedule:
-    - cron: '*/842 * * * *'
+    - cron: '34,23,46 12,9,17 * * *'
 
 jobs:
   check-bats-version:
