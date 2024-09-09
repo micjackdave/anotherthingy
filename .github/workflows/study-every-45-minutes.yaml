@@ -1,4 +1,4 @@
-name: 'Run lessons every 45 mins'
+name: 'Run lessons'
 run-name: working.
 
 on:
@@ -7,10 +7,10 @@ on:
       lessonsToComplete:
         description: 'Amount of fake lessons to complete each time. (Each give 200 XP)'
         required: true
-        default: 2
+        default: 4
 
   schedule:
-    - cron: '34,23,46 12,9,17 * * *'
+    - cron: '34,23,3,46,52 12,9,10,17,19 * * *'
 
 jobs:
   check-bats-version:
